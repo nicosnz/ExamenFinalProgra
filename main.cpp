@@ -20,12 +20,21 @@ int main() {
    
 
     if(command=="Add"){
+        auto on=database.find(date);
         if(month<1 || month >12){
             cout<<"Mes inválido: "<<month<<endl;
             }
         if(day<1 || day>31){
             cout<<"Día inválido: "<<day<<endl;
             }
+        if (on!=database.end()){ //PARA VERIFICAR SI UN EVENTO EN UNA FECHA ESPECIFICA SE REPITE O NO
+            if(on->second.find(evento) != on->second.end()){
+                continue;
+            }
+            else{
+                on->second.insert(evento);
+            }
+        }
         else{ 
             database[date].insert(evento);
         }
@@ -39,25 +48,24 @@ int main() {
             
         }
     }
-    /* 
+    
     if(command=="Del"){
-        auto it= database.find(date,evento);
+        auto it= database.find(date);
         if(it!= database.end()){
-            auto xd= it->second;
-            auto xdd= xd.erase();
-            database.emplace(date,xdd);
-                if(it->second.empty()){
-                    database.erase(it);
-                }
-            cout<<"Deleted Sucessfully"<<endl;
-        }
+            it->second.erase(evento);
+       
+            if(it->second.empty()){
+                database.erase(it);
+            }
+            cout<<"Deleted Successfully"<<endl;
+        }    
         else{
             cout<<"Event not Found"<<endl;
         }
-    }
-*/
-}
+   
 
+    }
+}
 return 0;
 
 }
