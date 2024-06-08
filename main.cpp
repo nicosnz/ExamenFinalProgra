@@ -56,7 +56,7 @@ int main() {
         
          
         /////////////////////////////////////////////////////////////////////////////////
-        if (command == "Del" && !evento.empty()) {
+        if (command == "Delall") {
             auto it = database.find(date);
             if (it != database.end()) {
                 int numEventosEliminados = it->second.size();
@@ -69,11 +69,11 @@ int main() {
         else if(command=="Add"){
             auto on=database.find(date);
             if(intMes<1 || intMes >12){
-                cout<<"Mes inválido: "<<intMes<<endl;
+                cout<<"Month value is invalid: "<<intMes<<endl;
                 break;
                 }
             if(intDia<1 || intDia>31){
-                cout<<"Día inválido: "<<intDia<<endl;
+                cout<<"Day value is invalid: "<<intDia<<endl;
                 break;
                 }
             if (on!=database.end()){ //PARA VERIFICAR SI UN EVENTO EN UNA FECHA ESPECIFICA SE REPITE O NO
