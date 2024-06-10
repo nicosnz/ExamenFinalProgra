@@ -45,6 +45,11 @@ Tenemos 3 archivos principales donde esta todo el código fuente del programa.
 * Esta función imprime toda la base de datos.
 ## 📊Diagrama de Flujo
 ## 👱Créditos
+* Nicolas Emanuel Oly Sánchez
 ## 🧰Herramientas
+* Visual Studio Code
+* C++
+* Youtube
+* IA Copilot
 
 
