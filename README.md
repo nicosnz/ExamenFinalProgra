@@ -33,6 +33,36 @@ Tenemos 3 archivos principales donde esta todo el código fuente del programa.
 - **funciones.cpp** : El archivo que contiene todo el cuerpo de las funciones que se implemento en el proyecto.
 - **funciones.h** : El archivo de cabecera que contiene toda las declaraciones de las funciones del archivo "funciones.cpp".
 ## ⚒️Funciones
+```C++
+void transformadorAñosMesesDias(string& date, int& intAño,int& intMes, int& intDia){
+    string Año,Mes,Dia;
+    size_t posicionG= date.find("-");
+    Año = date.substr(0,posicionG);
+    date.erase(0,posicionG+1);
+    size_t posicionH = date.find("-"); 
+    Mes= date.substr( 0, posicionH);
+    date.erase(0,posicionH+1);
+    Dia = date;
+        
+        
+    while(Año.size()<4){
+        Año="0"+Año;
+    }
+    if(Mes.size()<2){
+            Mes="0"+Mes;
+
+    }
+    if(Dia.size()<2){
+            Dia="0"+Dia;
+    }
+        
+    date= Año+ "-" + Mes + "-" + Dia;
+    intAño=stoi(Año);
+    intMes=stoi(Mes);
+    intDia=stoi(Dia);
+
+    
+}
 ## 📊Diagrama de Flujo
 ## 👱Créditos
 ## 🧰Herramientas
