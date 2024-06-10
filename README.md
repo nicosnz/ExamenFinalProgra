@@ -6,6 +6,7 @@ Las empresas, especialmente las que manejan un gran volumen de eventos, enfrenta
 
 | **Criterio**               | **MySQL**                             | **MongoDB**                         | **PostgreSQL**                     | **Nuevo Proyecto**                |
 |----------------------------|---------------------------------------|-------------------------------------|------------------------------------|-----------------------------------|
+| **Tipo de Base de Datos    | Relacional                            | No Relacional                       | Relacional                         | No relacional                     |
 | **Facilidad de Uso**       | Moderada                              | Alta                                | Moderada                           | Muy Alta                          |
 | **Configuración**          | Compleja                              | Moderada                            | Compleja                           | Sencilla                          |
 | **Optimización de Consultas** | Buena                                | Variable                            | Excelente                          | Excelente                         |
@@ -24,6 +25,7 @@ Las empresas, especialmente las que manejan un gran volumen de eventos, enfrenta
 
 5. **Costo Efectivo**: Es más económico en comparación con muchas bases de datos, incluidas MongoDB (que puede tener costos variables dependiendo del uso), reduciendo los costos operativos y de mantenimiento.
 
+Las bases de datos clave-valor son altamente escalables y pueden manejar grandes volúmenes de tráfico, lo que las hace ideales para procesos como la gestión de sesiones para aplicaciones web, sesiones de usuario para juegos masivos en línea y carritos de compra en línea.
 
 
 
