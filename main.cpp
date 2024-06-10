@@ -13,13 +13,15 @@ using namespace std;
 int main() {
     vector<string>eventoss;
     map <string,set<string>> database;
+
+    string Año,Mes,Dia;
     string linea1;
     string date,evento,command,guion1,guion2;
     int intMes,intAño,intDia;
-    string Año,Mes,Dia;
+    
    
    
-   
+    //Comienzo del bucle
     while(getline(cin,linea1)){ 
     
         istringstream d(linea1);
@@ -29,10 +31,11 @@ int main() {
         size_t posicionG= date.find("-");
         Año = date.substr(0,posicionG);
         date.erase(0,posicionG+1);
-        size_t posicionH = date.find("-");
+        size_t posicionH = date.find("-"); 
         Mes= date.substr( 0, posicionH);
         date.erase(0,posicionH+1);
         Dia = date;
+        
         
         while(Año.size()<4){
             Año="0"+Año;
@@ -92,7 +95,7 @@ int main() {
         
 
         /////////////////////////////////////////////////////////////////////////////////
-        else if(command=="Del" && evento.empty()){
+        else if(command=="Del"){
                 auto it= database.find(date);
                 if(it!= database.end()){
                     it->second.erase(evento);
@@ -133,7 +136,7 @@ int main() {
             }
         }
         
-        
+        //////////////////////////////////////////////////////////////////////////////////
         
         else{
             cout<<"Unknown Command: "<<command<<endl;
