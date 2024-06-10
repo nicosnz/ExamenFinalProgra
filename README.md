@@ -37,6 +37,12 @@ Tenemos 3 archivos principales donde esta todo el código fuente del programa.
 * La función transformadorAñosMesesDias toma una fecha en formato YYYY-MM-DD, la valida y formatea adecuadamente, y luego convierte los componentes de la fecha en enteros para su posterior uso.
 ### void deleteEvents
 * Esta función basicamente borra un evento de una determinada fecha que ingreso el usuario. El usuario debe ingresar la fecha y el evento que quiere borrar, si habia solo un evento en esa fecha, se borra toda la fecha.
+### void deleteAllevents
+* Esta función borra todos los eventos de una fecha determinada por el usuario.
+### void findEvents
+* Esta función muestra todos los eventos de una fecha determinada por el usuario, si en esa fecha hay más de un evento, los muestra de manera ascende según la comparación de cadenas.
+### void printAllEvents
+* Esta función imprime toda la base de datos.
 ## 📊Diagrama de Flujo
 ## 👱Créditos
 ## 🧰Herramientas
