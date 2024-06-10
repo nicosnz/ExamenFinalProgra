@@ -13,7 +13,7 @@ Las empresas, especialmente las que manejan un gran volumen de eventos, enfrenta
 | **Integración**            | Moderada                              | Alta                                | Alta                               | Sencilla                          |
 | **Costo**                  | Bajo                                  | Variable                            | Bajo                               | Bajo                              |
 
-## 😄Justificación del Nuevo Proyecto
+## 📘Justificación del Nuevo Proyecto
 
 1. **Facilidad de Uso**: A diferencia de MySQL y PostgreSQL, que requieren un conocimiento técnico considerable, el nuevo sistema está diseñado con una interfaz amigable que simplifica la administración y consulta de eventos, reduciendo la curva de aprendizaje y aumentando la productividad.
 
