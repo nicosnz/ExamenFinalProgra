@@ -43,7 +43,6 @@ Tenemos 3 archivos principales donde esta todo el código fuente del programa.
 * Esta función muestra todos los eventos de una fecha determinada por el usuario, si en esa fecha hay más de un evento, los muestra de manera ascende según la comparación de cadenas.
 ### void printAllEvents
 * Esta función imprime toda la base de datos.
-## 📊Diagrama de Flujo
 ## 👱Créditos
 * Nicolas Emanuel Oly Sánchez
 ## 🧰Herramientas
