@@ -28,6 +28,10 @@ Las empresas, especialmente las que manejan un gran volumen de eventos, enfrenta
 Las bases de datos clave-valor son altamente escalables y pueden manejar grandes volúmenes de tráfico, lo que las hace ideales para procesos como la gestión de sesiones para aplicaciones web, sesiones de usuario para juegos masivos en línea y carritos de compra en línea.
 
 ## 🏗️Estructura del Repositorio
+Tenemos 3 archivos principales donde esta todo el código fuente del programa.
+- **main.cpp** : El archivo principal que contiene la función "main" del programa.
+- **funciones.cpp** : El archivo que contiene todo el cuerpo de las funciones que se implemento en el proyecto.
+- **funciones.h** : El archivo de cabecera que contiene toda las declaraciones de las funciones del archivo "funciones.cpp".
 ## ⚒️Funciones
 ## 📊Diagrama de Flujo
 ## 👱Créditos
