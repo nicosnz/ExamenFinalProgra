@@ -6,7 +6,7 @@ Las empresas, especialmente las que manejan un gran volumen de eventos, enfrenta
 
 | **Criterio**               | **MySQL**                             | **MongoDB**                         | **PostgreSQL**                     | **Nuevo Proyecto**                |
 |----------------------------|---------------------------------------|-------------------------------------|------------------------------------|-----------------------------------|
-| **Tipo de Base de Datos    | Relacional                            | No Relacional                       | Relacional                         | No relacional                     |
+| **Tipo de Base de Datos**   | Relacional                            | No Relacional                       | Relacional                         | No relacional                     |
 | **Facilidad de Uso**       | Moderada                              | Alta                                | Moderada                           | Muy Alta                          |
 | **Configuración**          | Compleja                              | Moderada                            | Compleja                           | Sencilla                          |
 | **Optimización de Consultas** | Buena                                | Variable                            | Excelente                          | Excelente                         |
