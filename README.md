@@ -33,36 +33,10 @@ Tenemos 3 archivos principales donde esta todo el código fuente del programa.
 - **funciones.cpp** : El archivo que contiene todo el cuerpo de las funciones que se implemento en el proyecto.
 - **funciones.h** : El archivo de cabecera que contiene toda las declaraciones de las funciones del archivo "funciones.cpp".
 ## ⚒️Funciones
-```C++
-void transformadorAñosMesesDias(string& date, int& intAño,int& intMes, int& intDia){
-    string Año,Mes,Dia;
-    size_t posicionG= date.find("-");
-    Año = date.substr(0,posicionG);
-    date.erase(0,posicionG+1);
-    size_t posicionH = date.find("-"); 
-    Mes= date.substr( 0, posicionH);
-    date.erase(0,posicionH+1);
-    Dia = date;
-        
-        
-    while(Año.size()<4){
-        Año="0"+Año;
-    }
-    if(Mes.size()<2){
-            Mes="0"+Mes;
-
-    }
-    if(Dia.size()<2){
-            Dia="0"+Dia;
-    }
-        
-    date= Año+ "-" + Mes + "-" + Dia;
-    intAño=stoi(Año);
-    intMes=stoi(Mes);
-    intDia=stoi(Dia);
-
-    
-}
+### void transformadorAñosMesesDias
+* La función transformadorAñosMesesDias toma una fecha en formato YYYY-MM-DD, la valida y formatea adecuadamente, y luego convierte los componentes de la fecha en enteros para su posterior uso.
+### void deleteEvents
+* Esta función basicamente borra un evento de una determinada fecha que ingreso el usuario. El usuario debe ingresar la fecha y el evento que quiere borrar, si habia solo un evento en esa fecha, se borra toda la fecha.
 ## 📊Diagrama de Flujo
 ## 👱Créditos
 ## 🧰Herramientas
