@@ -27,5 +27,7 @@ Las empresas, especialmente las que manejan un gran volumen de eventos, enfrenta
 
 Las bases de datos clave-valor son altamente escalables y pueden manejar grandes volúmenes de tráfico, lo que las hace ideales para procesos como la gestión de sesiones para aplicaciones web, sesiones de usuario para juegos masivos en línea y carritos de compra en línea.
 
+## 🏗️Estructura del Repositorio
+
 
 
